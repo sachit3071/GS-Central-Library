@@ -1,0 +1,95 @@
+#bg
+{
+    background-image: url('https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80');
+    background-repeat: repeat;
+}
+.blr
+{
+    backdrop-filter: blur(15px) ;
+    -webkit-backdrop-filter: blur(15px) ;
+    background-color: rgba(150, 150, 150, 0.5);
+}
+.round
+{
+    border-radius: 10px;
+}
+#disp table, th, td, tr {
+    border: none;
+    text-align: center;
+  }
+  table{width: 100%;}
+
+  td{
+    border: none;
+    /* border-bottom-width:0; */
+}
+.form{
+    width: 50%;
+    margin:auto;
+}
+input{
+    width:60%;
+    border-radius: 5px;
+    background-color:rgba(230, 230, 230, 0.657);
+    border: none;
+}
+.name
+{ width: 30%;}
+.author
+{ width: 30%;}
+.genre
+{ width: 10%;}
+.star
+{ width: 5%;}
+.delete
+{ width: 10%;}
+#msg
+{
+    display:inline-block;
+}.anim-success
+{
+    animation-name: success;
+    animation-duration: 2s;
+}
+@keyframes success
+{
+    0%   {    background-color: rgba(150, 150, 150, 0.5);}
+    50%  {background-color: rgba(21, 255, 0, 0.733);}
+    100%   {    background-color: rgba(150, 150, 150, 0.5);}
+}
+.anim-failure
+{
+    animation-name: failure;
+    animation-duration: 2s;
+}
+@keyframes failure
+{
+    0%   {    background-color: rgba(150, 150, 150, 0.5);}
+    50%  {background-color: rgba(255, 0, 0, 0.719);}
+    100%   {    background-color: rgba(150, 150, 150, 0.5);}
+}
+.anim-txt
+{
+    animation-name: txt;
+    animation-duration: 2s;
+}
+@keyframes txt
+{
+    0% { margin-left:0px; opacity:0}
+    50% { margin-left:50px; opacity:1}
+    55% { margin-left:50px; opacity:1}
+    100% { margin-left:400px; opacity:0}    
+}
+.attntn
+{
+    color: red;
+    animation-name: attention;
+    animation-duration: 5s;
+}
+@keyframes attention 
+{
+    0% { opacity:0}
+    20% { opacity:1}
+    80% { opacity:1}
+    100% {  opacity:0}
+}
